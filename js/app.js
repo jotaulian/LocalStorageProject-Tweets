@@ -38,15 +38,15 @@ function showError(error){
     errorMessage.textContent = error;
     errorMessage.classList.add('error');
     
-    // Insertart in the content
+    // Insert in the content
     const content = document.querySelector('#contenido');
     content.appendChild(errorMessage);
+
+    setTimeout(() => {
+        errorMessage.remove();
+        
+    }, 3000);
 
 }
 
 // Agregar tweet a la lista
-function addTweet(tweet){
-    const tweetParaAgregar = document.createElement('p');
-    tweetParaAgregar.textContent = tweet;
-    listaTweets.appendChild(tweetParaAgregar);
-}
