@@ -1,25 +1,30 @@
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
 #contenido {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .borrar-tweet,
 .borrar-tweet:hover {
-    float: right;
-    cursor: pointer;
-    color: red;
-    font-weight: bold;
+  float: right;
+  cursor: pointer;
+  color: rgb(214, 2, 2);
+  font-weight: bolder;
 }
 
 .error {
-    background-color: red;
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    max-width: 400px;
-    margin: 0 auto;
-    color: white;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 400px;
+  margin: 0 auto;
+  color: white;
+}
+
+.letra-lista {
+  font-size: 2rem;
 }
